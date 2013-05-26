@@ -1,0 +1,91 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	background: #ffffff url('images/mundo.gif') no-repeat center top;
+}
+
+ul {
+	list-style-image: none;
+	list-style-position: inside;
+	list-style-type: none;
+}
+
+input[type="text"] {
+	border-width: thin;
+	border-style: solid;
+	border-color: #DCDCDC;
+}
+
+input[type="text"]:focus {
+	border-width: medium;
+	border-style: solid;
+	border-color: #DCDCDC;
+}
+
+input[type="text"]:hover {
+	border-width: medium;
+	border-style: solid;
+	border-color: #DCDCDC;
+}
+
+input[type="submit"] {
+	height: 25px;
+	width: 85px;
+	color: #000000;
+	font-size: 15px;
+	background-color: #D3D3D3;
+	border-width: thin;
+	border-style: solid;
+	border-color: #DCDCDC;
+}
+
+input[type="submit"]:hover {
+	height: 25px;
+	width: 85px;
+	color: #696969;
+	background-color: #4682B4;
+	font-size: 15px;
+	border-width: thin;
+	border-style: solid;
+	border-color: #DCDCDC;
+}
+
+#principal {
+	position: absolute;
+	top: 15%;
+	left: 35%;
+}
+
+#resultado {
+	font-size: 25px;
+	border-color: #CDC9A5;
+	border-style: inset;
+	border-width: thin;
+	color: #838B83;
+	background-color: #EEE9E9;
+}
+
+#resultado span {
+	padding: 5px;
+}
+
+#mais_acessados {
+	font-size: 10px;
+	border-radius: 7px;
+	border: 3px dotted #D3D3D3;
+	position: absolute;
+	bottom: 5px;
+	left: 35%;
+	display: table;
+}
+
+#mais_acessados th {
+	font-size: 13px;
+	width: 50%;
+}
+
+#mais_acessados tr {
+	color: #696969;
+	border-bottom: 5px #708090 dashed;
+}
